@@ -8,3 +8,6 @@
 #### 3、激活之后，就可以直接发布，输入npm publish命令
 ![](https://github.com/weihaonan/npm-publish/blob/master/img/3.bmp)
 
+#### 4、发布成功后，登入npm会发现多了一个package
+![](https://github.com/weihaonan/npm-publish/blob/master/img/5.bmp)
+
