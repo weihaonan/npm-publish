@@ -1,6 +1,4 @@
-# npm-publish
-发布自己的npm包
-
+### 操作
 #### 1、发布npm包之前得有自己的npm账号，可以在npm注册，也可以在命令提示符创建用户，在这里我们直接用命令提示符创建（如果已经有npm账号可以跳过）,直接在目录下输入npm adduser命令，根据提示依次输入用户名、密码、邮箱（如果已经有了npm账户，输入npm login命令）
 ![](https://github.com/weihaonan/npm-publish/blob/master/img/1.bmp)
 
