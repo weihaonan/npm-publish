@@ -11,3 +11,7 @@
 #### 补充
 ##### 1、如果npm login时候报 Unable to authenticate, need:Basic错误，可以在输入username时加一个~符号试试
 ##### 2、如果想更新这个npm包，只需在package.json文件中修改version，再重新npm pu  
+
+##### 3、npm包的查找规则：（1）在项目根目录中查找有没有node_modules 的文件夹（2）在node_modules 中，根据包名，找对应的vue文件夹（3）在vue文件夹中，找一个叫做package.json的包配置文件（4）在package.json文件中，查找一个main属性【main属性指定了这个包在被加载的时候  的入口文件】 
+##### 4、修改npm包的查找路径：（1）import Vue from '../node_modules/*/*'（2）在包的package.json文件中main属性指定的入口文件修改为【"main": "*/*/",】（3）在项目的webpack.config.js中添加resolve属性,例如:resolve:{alias: {"vue$" : "vue/dist/vue.js"}}
+
